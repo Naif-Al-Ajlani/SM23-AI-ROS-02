@@ -25,7 +25,9 @@ SLAM algorithms are widely used in robotics for applications such as autonomous 
 # 1- Install-ROS-on-Remote-PC:
 After installing ubunto and compatible ROS packges with ubunto virsion downloaded.
 
+
 Open the terminal and enter below commands in order only one time:-
+
 ...
 $ sudo apt update
 $ sudo apt upgrade
@@ -33,6 +35,7 @@ $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/instal
 $ chmod 755 ./install_ros_noetic.sh
 $ bash ./install_ros_noetic.sh
 ...
+
 # 2- Install-Dependent-ROS-Packages:
 This commands is for ROS melodic virsion "change the virsion name if you use deferent virsion than melodic"
 $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
