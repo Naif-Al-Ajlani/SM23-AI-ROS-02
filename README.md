@@ -18,7 +18,7 @@ After installing ubunto and compatible ROS packges with ubunto virsion downloade
 
 Open the terminal and enter below commands in order only one time:-
 
-...
+\
 $ sudo apt update
 
 $ sudo apt upgrade
@@ -28,7 +28,7 @@ $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/instal
 $ chmod 755 ./install_ros_noetic.sh
 
 $ bash ./install_ros_noetic.sh
-...
+\
 
 # 2- Install-Dependent-ROS-Packages:
 This commands is for ROS melodic virsion "change the virsion name if you use deferent virsion than melodic"
@@ -109,10 +109,10 @@ Note: you can only move the robot from the terminal used in step number seven (R
 # resources
 1- turtlebot3 quick start guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 
-2- hector slam: http://wiki.ros.org/hector_slam
+2- hector_slam metapackage: http://wiki.ros.org/hector_slam
 
-3- carto grapher: http://wiki.ros.org/cartographer
+3- cartographer: http://wiki.ros.org/cartographer
 
-4- gmapping: http://wiki.ros.org/gmapping
+4- gmapping package: http://wiki.ros.org/gmapping
 
-for more application information check this toutorial:
+for more application information check this toutorial: https://youtu.be/JXnXnAXrYj8
