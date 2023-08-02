@@ -129,7 +129,7 @@ How to move:
 
 Note: you can only move the robot from the terminal used in step number seven (step 7: Run Teleoperation Node).
 
-![WhatsApp Image 2023-08-03 at 2 17 21 AM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/e65b636f-92a3-4048-afaf-dca66f002a29)
+![WhatsApp Image 2023-08-03 at 2 17 21 AM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/f1f17e47-a748-4f82-9d28-42165a719761)
 
 # resources
 + turtlebot3 quick start guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
