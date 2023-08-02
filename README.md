@@ -38,6 +38,7 @@ $ bash ./install_ros_noetic.sh
 
 # 2- Install-Dependent-ROS-Packages:
 This commands is for ROS melodic virsion "change the virsion name if you use deferent virsion than melodic"
+
 $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 ros-melodic-teleop-twist-keyboard ros-noetic-laser-proc \
 ros-melodic-rgbd-launch ros-melodicc-rosserial-arduino \
