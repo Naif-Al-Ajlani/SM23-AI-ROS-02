@@ -124,10 +124,12 @@ $ rosrun map_server map_saver -f ~/map
 # Test
 Testing the map with the robot model to determine the environment based on its own position.
 
+How to move: 
+
+
 Note: you can only move the robot from the terminal used in step number seven (step 7: Run Teleoperation Node).
-![183255856-863117a0-75c7-4983-bead-2f2e901e689b](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/09478831-be31-4978-b5f9-ea1054bd8586)
 
-
+![WhatsApp Image 2023-08-03 at 2 17 21 AM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/e65b636f-92a3-4048-afaf-dca66f002a29)
 
 # resources
 + turtlebot3 quick start guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
