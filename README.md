@@ -125,7 +125,8 @@ $ rosrun map_server map_saver -f ~/map
 Testing the map with the robot model to determine the environment based on its own position.
 
 Note: you can only move the robot from the terminal used in step number seven (step 7: Run Teleoperation Node).
-![183255856-863117a0-75c7-4983-bead-2f2e901e689b](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/ce520691-9925-4a02-856e-6723b2ab4ee6)
+![183255856-863117a0-75c7-4983-bead-2f2e901e689b](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/09478831-be31-4978-b5f9-ea1054bd8586)
+
 
 
 # resources
