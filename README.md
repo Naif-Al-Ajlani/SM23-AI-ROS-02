@@ -26,6 +26,7 @@ SLAM algorithms are widely used in robotics for applications such as autonomous 
 After installing ubunto and compatible ROS packges with ubunto virsion downloaded.
 
 Open the terminal and enter below commands in order only one time:-
+
 $ sudo apt update
 $ sudo apt upgrade
 $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
