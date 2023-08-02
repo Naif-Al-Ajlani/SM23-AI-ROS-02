@@ -9,16 +9,6 @@ The basic idea behind SLAM is to use sensor data from the robot's environment, s
 
 Using a wide range of algorithms, computations, and other sensory data, SLAM software systems allow a robot or other vehicle—like a drone or self-driving car—to plot a course through an unfamiliar environment while simultaneously identifying its own location within that environment.
 
-There are several different approaches to implementing SLAM, each with its own advantages and disadvantages. Some of the most common SLAM algorithms include:
-
-Extended Kalman Filter (EKF) SLAM: This is a probabilistic approach that uses an extended Kalman filter to estimate the robot's position and the map of the environment. It is a widely used algorithm for SLAM.
-
-FastSLAM: This is a particle filter-based approach that uses a set of particles to represent the robot's position and the map of the environment. It is particularly well-suited for problems with non-linear dynamics or non-Gaussian sensor noise.
-
-GraphSLAM: This is a graph-based approach that represents the environment as a graph, with nodes representing the robot's position at different times and edges representing the constraints between those positions, such as the distance between two points. It is a popular approach for large-scale SLAM problems.
-
-Occupancy Grid Mapping: This is a grid-based approach that divides the environment into a grid of cells and estimates the probability that each cell is occupied by an obstacle. It is a simple and efficient approach that can handle a large range of sensor data types.
-
 SLAM algorithms are widely used in robotics for applications such as autonomous vehicles, unmanned aerial vehicles, and mobile robots. They are essential for enabling robots to navigate and interact with their environments autonomously.
 ![183163488-bc7b9d45-897b-4728-9eeb-0e712f8fd050](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/5a1c8326-727a-4a50-affe-c0ff74b63892)
 
@@ -66,7 +56,7 @@ Install Simulation Packages:
 
 The TurtleBot3 Simulation Package requires turtlebot3 and turtlebot3_msgs packages as prerequisite. Without these prerequisite packages, the Simulation cannot be launched.
 
-Before lucnhing the simulation follow the PC Setup instructions below to install the required packages, if you already did not install required packages and dependent packages
+Before lucnhing the simulation follow the PC Setup instructions below to install the required packages, if you already did not install required packages and dependent packages.
 
 $ cd ~/catkin_ws/src/
 
@@ -81,7 +71,7 @@ Three simulation environments are prepared for TurtleBot3. Please select one of 
 
 Use the proper keyword among burger , waffle , waffle_pi for the TURTLEBOT3_MODEL parameter before lunching TurtleBot3 world.
 
-TurtleBot3 World lunch
+TurtleBot3 World lunch:
 
 $ export TURTLEBOT3_MODEL=waffle
 
@@ -111,14 +101,17 @@ When the map is created successfully, open a new terminal from Remote PC and sav
 $ rosrun map_server map_saver -f ~/map
 
 # Test
-Testing the map with the robot model to determine the environment based on its own position
+Testing the map with the robot model to determine the environment based on its own position.
 
-Note: you can only move the robot from the terminal used in step number seven (Runing Teleoperation Node step)
+Note: you can only move the robot from the terminal used in step number seven (Runing Teleoperation Node step).
 
 # resources
 1- turtlebot3 quick start guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
+
 2- hector slam: http://wiki.ros.org/hector_slam
+
 3- carto grapher: http://wiki.ros.org/cartographer
+
 4- gmapping: http://wiki.ros.org/gmapping
 
 for more application information check this toutorial:
