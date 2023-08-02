@@ -15,7 +15,7 @@ SLAM algorithms are widely used in robotics for applications such as autonomous 
 # 1- Install-ROS-on-Remote-PC:
 After installing ubuntu and compatible ROS packges with ubuntu version downloaded.
 
-Open the terminal and enter below commands in order only one time:-
+Open the terminal and enter below commands in order only one time:
 
 ```
 $ sudo apt update
@@ -32,8 +32,11 @@ $ chmod 755 ./install_ros_noetic.sh
 ```
 $ bash ./install_ros_noetic.sh
 ```
+![WhatsApp Image 2023-08-02 at 12 13 33 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/46094309-7c84-49b2-8a59-8afea416dddd)
+![WhatsApp Image 2023-08-02 at 12 13 33 PM (1)](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/b33d2421-9179-4369-95d9-a6decd9ad788)
 # 2- Install-Dependent-ROS-Packages:
 This commands is for ROS melodic version "change the version name if you use deferent ROS version than melodic"
+
 ```
 $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \
@@ -45,6 +48,8 @@ $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-compressed-image-transport ros-melodic-rqt* \
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
 ```
+![WhatsApp Image 2023-08-02 at 12 13 33 PM (2)](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/755a7d45-327e-4d6c-bf49-3d4635e349e3)
+
 # 3- Install-TurtleBot3-Packages:
 Install TurtleBot3 via Debian Packages with compatible ROS version ( This commands is for ROS melodic version) "change the name if you use deferent version than melodic"
 ```
@@ -113,7 +118,7 @@ $ rosrun map_server map_saver -f ~/map
 # Test
 Testing the map with the robot model to determine the environment based on its own position.
 
-Note: you can only move the robot from the terminal used in step number seven (Running Teleoperation Node step).
+Note: you can only move the robot from the terminal used in step number seven (step 7: Run Teleoperation Node).
 
 # resources
 + turtlebot3 quick start guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
