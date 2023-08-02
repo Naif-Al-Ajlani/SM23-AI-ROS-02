@@ -32,8 +32,6 @@ $ chmod 755 ./install_ros_noetic.sh
 ```
 $ bash ./install_ros_noetic.sh
 ```
-![WhatsApp Image 2023-08-02 at 12 13 33 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/46094309-7c84-49b2-8a59-8afea416dddd)
-![WhatsApp Image 2023-08-02 at 12 13 33 PM (1)](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/b33d2421-9179-4369-95d9-a6decd9ad788)
 # 2- Install-Dependent-ROS-Packages:
 This commands is for ROS melodic version "change the version name if you use deferent ROS version than melodic"
 
@@ -48,7 +46,6 @@ $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-compressed-image-transport ros-melodic-rqt* \
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
 ```
-![WhatsApp Image 2023-08-02 at 12 13 33 PM (2)](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/755a7d45-327e-4d6c-bf49-3d4635e349e3)
 
 # 3- Install-TurtleBot3-Packages:
 Install TurtleBot3 via Debian Packages with compatible ROS version ( This commands is for ROS melodic version) "change the name if you use deferent version than melodic"
@@ -90,6 +87,8 @@ $ export TURTLEBOT3_MODEL=waffle
 ```
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
+![WhatsApp Image 2023-08-02 at 12 13 33 PM (6)](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/df24f5f4-6f75-4702-afa6-459f1bf0287d)
+
 # 6- Run SLAM Simulation
 Open a new terminal from Remote PC and run the SLAM node. Gmapping SLAM method is used by default.
 
@@ -100,6 +99,8 @@ $ export TURTLEBOT3_MODEL=waffle
 ```
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
+![WhatsApp Image 2023-08-02 at 12 13 34 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/28c05505-b0cd-4863-92f6-3cb3ec50a53a)
+
 # 7- Run Teleoperation Node
 Open a new terminal from Remote PC and run the teleoperation node from the Remote PC.
 
@@ -110,11 +111,15 @@ $ export TURTLEBOT3_MODEL=waffle
 ```
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+![WhatsApp Image 2023-08-02 at 12 13 39 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/241f869e-c3c5-4422-8b22-cd4a520c0a52)
+
 # 8- Saving the Map
 When the map is created successfully, open a new terminal from Remote PC and save the map with the following command line.
 ```
 $ rosrun map_server map_saver -f ~/map
 ```
+![WhatsApp Image 2023-08-02 at 12 13 40 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/374bb0ef-e86a-4869-b3f4-e5e78cd2bad9)
+
 # Test
 Testing the map with the robot model to determine the environment based on its own position.
 
