@@ -34,13 +34,14 @@ $ bash ./install_ros_noetic.sh
 This commands is for ROS melodic virsion "change the virsion name if you use deferent virsion than melodic"
 
 $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
-ros-melodic-teleop-twist-keyboard ros-noetic-laser-proc \
-ros-melodic-rgbd-launch ros-melodicc-rosserial-arduino \
-ros-noetic-rosserial-python ros-noetic-rosserial-client \
-ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server \
-ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \
-ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
-ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-marker
+  ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \
+  ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan \
+  ros-melodic-rosserial-arduino ros-melodic-rosserial-python \
+  ros-melodic-rosserial-server ros-melodic-rosserial-client \
+  ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server \
+  ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro \
+  ros-melodic-compressed-image-transport ros-melodic-rqt* \
+  ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
 
 # 3- Install-TurtleBot3-Packages:
 Install TurtleBot3 via Debian Packages with compatible ROS virsion ( This commands is for ROS melodic virsion) "change the name if you use deferent virsion than melodic"
