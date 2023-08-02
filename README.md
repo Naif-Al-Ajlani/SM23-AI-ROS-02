@@ -1,7 +1,7 @@
 # SM23-AI-ROS-02
-Download Turtlebot3 with SLAM packeges with compatible ROS packeges to create a map and save it while simultaneously make the robot model determin the environment based on its position.
+Download Turtlebot3 with SLAM packages with compatible ROS packages to create a map and save it while simultaneously make the robot model determine the environment based on its position.
 
-# SLAM defnition
+# SLAM Definition
 
 Simultaneous localization and mapping (SLAM) is an algorithmic approach used in robotics to solve the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's(robot) location within that environment.
 
@@ -13,8 +13,7 @@ SLAM algorithms are widely used in robotics for applications such as autonomous 
 ![183163488-bc7b9d45-897b-4728-9eeb-0e712f8fd050](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/5a1c8326-727a-4a50-affe-c0ff74b63892)
 
 # 1- Install-ROS-on-Remote-PC:
-After installing ubunto and compatible ROS packges with ubunto virsion downloaded.
-
+After installing ubuntu and compatible ROS packges with ubuntu version downloaded.
 
 Open the terminal and enter below commands in order only one time:-
 
@@ -34,7 +33,7 @@ $ chmod 755 ./install_ros_noetic.sh
 $ bash ./install_ros_noetic.sh
 ```
 # 2- Install-Dependent-ROS-Packages:
-This commands is for ROS melodic virsion "change the virsion name if you use deferent virsion than melodic"
+This commands is for ROS melodic version "change the version name if you use deferent ROS version than melodic"
 ```
 $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \
@@ -47,7 +46,7 @@ $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
 ```
 # 3- Install-TurtleBot3-Packages:
-Install TurtleBot3 via Debian Packages with compatible ROS virsion ( This commands is for ROS melodic virsion) "change the name if you use deferent virsion than melodic"
+Install TurtleBot3 via Debian Packages with compatible ROS version ( This commands is for ROS melodic version) "change the name if you use deferent version than melodic"
 ```
 $ sudo apt install ros-melodic-dynamixel-sdk
 ```
@@ -62,7 +61,7 @@ Install Simulation Packages:
 
 The TurtleBot3 Simulation Package requires turtlebot3 and turtlebot3_msgs packages as prerequisite. Without these prerequisite packages, the Simulation cannot be launched.
 
-Before lucnhing the simulation follow the PC Setup instructions below to install the required packages, if you already did not install required packages and dependent packages.
+Before launching the simulation follow the PC Setup instructions below to install the required packages, if you already did not install required packages and dependent packages.
 ```
 $ cd ~/catkin_ws/src/
 ```
@@ -106,15 +105,15 @@ $ export TURTLEBOT3_MODEL=waffle
 ```
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
-# 8- Saveing the Map
-When the map is created successfully, open a new terminal from Remote PC and save the map with the follwing command line.
+# 8- Saving the Map
+When the map is created successfully, open a new terminal from Remote PC and save the map with the following command line.
 ```
 $ rosrun map_server map_saver -f ~/map
 ```
 # Test
 Testing the map with the robot model to determine the environment based on its own position.
 
-Note: you can only move the robot from the terminal used in step number seven (Runing Teleoperation Node step).
+Note: you can only move the robot from the terminal used in step number seven (Running Teleoperation Node step).
 
 # resources
 + turtlebot3 quick start guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
@@ -125,4 +124,4 @@ Note: you can only move the robot from the terminal used in step number seven (R
 
 + gmapping package: http://wiki.ros.org/gmapping
 
-+ for more application information check this toutorial: https://youtu.be/JXnXnAXrYj8
++ for more application information check this tutoria: https://youtu.be/JXnXnAXrYj8
