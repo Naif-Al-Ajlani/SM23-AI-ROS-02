@@ -128,7 +128,7 @@ Note: you can only move the robotModel node from the terminal used in step numbe
 
 ![WhatsApp Image 2023-08-03 at 2 17 21 AM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/f1f17e47-a748-4f82-9d28-42165a719761)
 
-# resources
+# Resources
 + turtlebot3 quick start guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 
 + run slam and saving the map: https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/
