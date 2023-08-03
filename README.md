@@ -139,4 +139,4 @@ Note: you can only move the robotModel node from the terminal used in step numbe
 
 + gmapping package: http://wiki.ros.org/gmapping
 
-+ for more application information check this tutoria: https://youtu.be/JXnXnAXrYj8
++ for more application information check this tutorial: https://youtu.be/JXnXnAXrYj8
