@@ -134,6 +134,8 @@ Note: you can only move the robot from the terminal used in step number seven (s
 # resources
 + turtlebot3 quick start guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 
++ run slam and saving the map: https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/
+
 + hector_slam metapackage: http://wiki.ros.org/hector_slam
 
 + cartographer: http://wiki.ros.org/cartographer
