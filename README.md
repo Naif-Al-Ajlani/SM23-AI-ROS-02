@@ -9,6 +9,7 @@ The basic idea behind SLAM is to use sensor data from the robot's environment, s
 Using a wide range of algorithms, computations, and other sensory data, SLAM software systems allow a robot or other vehicle—like a drone or self-driving car—to plot a course through an unfamiliar environment while simultaneously identifying its own location within that environment.
 
 SLAM algorithms are widely used in robotics for applications such as autonomous vehicles, unmanned aerial vehicles, and mobile robots. They are essential for enabling robots to navigate and interact with their environments autonomously.
+
 ![183163488-bc7b9d45-897b-4728-9eeb-0e712f8fd050](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/5a1c8326-727a-4a50-affe-c0ff74b63892)
 
 # 1- Install-ROS-on-Remote-PC:
