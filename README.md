@@ -2,8 +2,6 @@
 Download Turtlebot3 with SLAM packages with compatible ROS packages to create a map and save it while simultaneously make the robot model determine the environment based on its position.
 
 # SLAM Definition
-
-
 Simultaneous localization and mapping (SLAM) is an algorithmic approach used in robotics to solve the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's(robot) location within that environment.
 
 The basic idea behind SLAM is to use sensor data from the robot's environment, such as laser range finders, cameras, or sonar sensors, to build a map of the environment and at the same time, use this map to estimate the robot's position. This is done by incrementally updating the map and the robot's position based on new sensor data as the robot moves through the environment.
@@ -124,8 +122,7 @@ $ rosrun map_server map_saver -f ~/map
 # Test the map and robotModel node movement
 Testing the map with the robot model to determine the environment based on its own position.
 
-How to move: in step seven "Run Teleoperation Node" terminal press the following to move the robot node ( forward= w, left= a, right= d, backward= x, force stop= s or space key)
-
+How to move: in step seven "Run Teleoperation Node" terminal press the following to move the robotModel node ( forward= w, left= a, right= d, backward= x, force stop= s or space key)
 
 Note: you can only move the robotModel node from the terminal used in step number seven (step 7: Run Teleoperation Node).
 
