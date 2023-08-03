@@ -125,6 +125,7 @@ Testing the map with the robot model to determine the environment based on its o
 How to move: in step seven "Run Teleoperation Node" terminal press the following to move the robotModel node   ( forward= w, left= a, right= d, backward= x, force stop= s or space key)
 
 Note: you can only move the robotModel node from the terminal used in step number seven (step 7: Run Teleoperation Node).
+
 ![WhatsApp Image 2023-08-02 at 12 13 39 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/241f869e-c3c5-4422-8b22-cd4a520c0a52)
 
 # Resources
