@@ -110,14 +110,14 @@ $ export TURTLEBOT3_MODEL=waffle
 ```
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
-![WhatsApp Image 2023-08-02 at 12 13 39 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/241f869e-c3c5-4422-8b22-cd4a520c0a52)
+![WhatsApp Image 2023-08-03 at 2 17 21 AM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/f1f17e47-a748-4f82-9d28-42165a719761)
 
 # 8- Saving the Map
 When the map is created successfully, open a new terminal from Remote PC and save the map with the following command line.
 ```
 $ rosrun map_server map_saver -f ~/map
 ```
-![WhatsApp Image 2023-08-03 at 2 17 21 AM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/f1f17e47-a748-4f82-9d28-42165a719761)
+![WhatsApp Image 2023-08-02 at 12 13 40 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/374bb0ef-e86a-4869-b3f4-e5e78cd2bad9)
 
 # Test the map and robotModel node movement
 Testing the map with the robot model to determine the environment based on its own position.
@@ -125,7 +125,7 @@ Testing the map with the robot model to determine the environment based on its o
 How to move: in step seven "Run Teleoperation Node" terminal press the following to move the robotModel node   ( forward= w, left= a, right= d, backward= x, force stop= s or space key)
 
 Note: you can only move the robotModel node from the terminal used in step number seven (step 7: Run Teleoperation Node).
-![WhatsApp Image 2023-08-02 at 12 13 40 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/374bb0ef-e86a-4869-b3f4-e5e78cd2bad9)
+![WhatsApp Image 2023-08-02 at 12 13 39 PM](https://github.com/Naif-Al-Ajlani/SM23-AI-ROS-02/assets/98528261/241f869e-c3c5-4422-8b22-cd4a520c0a52)
 
 # Resources
 + turtlebot3 quick start guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
