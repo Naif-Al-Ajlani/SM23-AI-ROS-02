@@ -124,7 +124,7 @@ $ rosrun map_server map_saver -f ~/map
 # Test
 Testing the map with the robot model to determine the environment based on its own position.
 
-How to move: 
+How to move: in step seven "Run Teleoperation Node" terminal press the following to move the robot node ( forward= w, left= a, right= d, backward= x, force stop= s, or space key)
 
 
 Note: you can only move the robot from the terminal used in step number seven (step 7: Run Teleoperation Node).
